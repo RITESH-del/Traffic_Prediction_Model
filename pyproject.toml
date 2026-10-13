@@ -9,9 +9,14 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "folium>=0.20.0",
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.4",
     "matplotlib>=3.11.2",
     "numpy>=2.5.3",
+    "osmnx>=2.1.1",
     "pandas>=3.0.6",
+    "pyarrow>=26.0.0",
+    "requests>=2.34.2",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
 ]

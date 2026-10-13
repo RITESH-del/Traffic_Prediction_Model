@@ -370,6 +370,7 @@ cd docs && uv run make doctest
 ## Agent Guidelines
 
 - Inspect the existing repository files and configuration before changing project setup or dependencies.
+- Do not delete any file without asking first, if it is not in .gitignore, it might be used.
 - Prefer minimal, targeted changes that preserve the existing CCDS architecture and established workflows.
 - Do not assume that a Makefile target is compatible with `uv`; inspect its implementation before relying on it.
 - Do not modify data, trained model artifacts, credentials, or unrelated files during environment maintenance.
